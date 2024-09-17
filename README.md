@@ -8,13 +8,12 @@ https://www.youtube.com/@shy_rikki
 
 
 ## Features
-- Best ffmpeg presets which provide the best quality and work super fast in any software (Vegas Pro, After Effects etc)
+- Best ffmpeg presets which provide the best quality with precise colors and work super fast in any software (Vegas Pro, After Effects etc)
 - Easy to use: just drag and drop the folders/videos onto the batch and wait till converting is finished
 - Fully customizable
-- - Adjustable frame rate (FPS)
-- - Changeable resolution
-- - Create your own FFmpeg presets (for advanced users only)
-- 10 bit support (means you can convert raw 10 bits anime clips without losing colors)  
+  - Adjustable frame rate (FPS)
+  - Changeable resolution
+  - Create your own FFmpeg presets (for advanced users only)
 
 ## Installation
 1. Install FFMPEG and add it to the PATH environment variable: https://ffmpeg.org/  
