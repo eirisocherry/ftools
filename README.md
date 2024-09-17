@@ -7,6 +7,16 @@ https://www.youtube.com/@shy_rikki
 
 
 
+## Features
+- Best ffmpeg presets which provide the best quality and work super fast in any software (Vegas Pro, After Effects etc)
+- Easy to use: just drag and drop the folders/videos onto the batch and wait till converting is finished
+- Fully customizable
+- - Adjustable frame rate (FPS)
+- - Changeable resolution
+- - Create your own FFmpeg presets (for advanced users only)
+- Best (useful if you want to share your high-fps game clips)
+- 10 bit support (means you can convert raw 10 bits anime clips without losing colors)  
+
 ## Installation
 1. Install FFMPEG and add it to the PATH environment variable: https://ffmpeg.org/  
 2. Install K-Lite Codec Pack (standart): https://codecguide.com/download_kl.htm  
@@ -17,16 +27,6 @@ Quicktime codec (.mov): https://support.apple.com/en-us/106375
 4. [Optional] Install Notepad++ (handy notepad): https://notepad-plus-plus.org/downloads/  
 
 
-
-## Features
-- Best ffmpeg presets which provide the best quality and work super fast in any software (Vegas Pro, After Effects etc)
-- Easy to use: just drag and drop the folders/videos onto the batch and wait till converting is finished
-- Fully customizable
-- - Adjustable frame rate (FPS)
-- - Changeable resolution
-- - Create your own FFmpeg presets (for advanced users only)
-- Best (useful if you want to share your high-fps game clips)
-- 10 bit support (means you can convert raw 10 bits anime clips without losing colors)  
 
 ## Usage
 
