@@ -1,18 +1,11 @@
 # ftools
-This script converts videos into readable format for editing software (after effects, vegas pro etc.)  
+This script converts videos into a format compatible with software such as After Effects, Vegas Pro, and more.  
 
 ## Credits
 `shy_rikki` (discord)  
 https://www.youtube.com/@shy_rikki  
 
 
-## Features
-- Best ffmpeg presets which provide the best quality and work super fast in any software (Vegas Pro, After Effects etc)
-- Easy to use: just drag and drop the folders/videos onto the batch and wait till converting is finished
-- Fully customizable
-- - Adjustable frame rate (FPS)
-- - Changeable resolution
-- - Create your own FFmpeg presets (for advanced users only)
 
 ## Installation
 1. Install FFMPEG and add it to the PATH environment variable: https://ffmpeg.org/  
@@ -23,22 +16,42 @@ UtVideo codec (.avi): https://www.videohelp.com/software/Ut-Video-Codec-Suite
 Quicktime codec (.mov): https://support.apple.com/en-us/106375  
 4. [Optional] Install Notepad++ (handy notepad): https://notepad-plus-plus.org/downloads/  
 
+
+
+## Features
+- Best ffmpeg presets which provide the best quality and work super fast in any software (Vegas Pro, After Effects etc)
+- Easy to use: just drag and drop the folders/videos onto the batch and wait till converting is finished
+- Fully customizable
+- - Adjustable frame rate (FPS)
+- - Changeable resolution
+- - Create your own FFmpeg presets (for advanced users only)
+- Best (useful if you want to share your high-fps game clips)
+- 10 bit support (means you can convert raw 10 bits anime clips without losing colors)  
+
 ## Usage
+
+<details>
+<summary> Usage </summary>
+<br>
+
 1. Edit ftool-converter.bat with a notepad and adjust the settings (preset, fps etc.)  
 2. Make sure videos and folders don't have special symbols such as `( ) ^ ! @ $ & %` etc in their name (dashes "-" , underscores "_", english and other languages are safe to use)  
 3. Drag all the videos and folders with videos you want to convert onto the `ftool-converter.bat`  
 4. Wait till converting is finished  
 5. Enjoy your converted videos  
 
-## Bugs
-If this script immediately crashes more likely one of your folders/videos have parentheses `( )` in their name, rename them  
+**Bug:** If this script immediately crashes more likely one of your folders/videos have parentheses `( )` in their name, rename them  
 During converting pay big attention to [Input] and [Output] paths and rename files/folders which are causing errors  
 
+<br>
+</details>
 
 
 
+<details>
+<summary> Presets information </summary>
+<br>
 
-## Presets information
 ### UTVIDEO (.avi)  
 Requirement: Ut Video Codec (https://www.videohelp.com/software/Ut-Video-Codec-Suite)  
 `utalpha` -> true lossless quality, supports an alpha channel (best choise if you wanna keep the original quality)  
@@ -75,11 +88,15 @@ To fix it adjust project settings (ignore ACES options if you don't have them):
 **Playback speed (fastest to slowest):** uttrue > utalpha > lite > good > lossless > prores > proresxq  
 **Converting time (fastest to slowest):** uttrue < utalpha < lite < prores < proresxq < good < lossless  
 
+<br>
+</details>
 
 
 
+<details>
+<summary> To add an ffmpeg preset </summary>
+<br>
 
-## To add an ffmpeg preset
 1. Make a preset 
 ![image](https://github.com/user-attachments/assets/cafd32ea-3ad4-4d01-bd4b-f254fa6f473e)  
 2. Specify the extension your new preset has
@@ -87,9 +104,20 @@ To fix it adjust project settings (ignore ACES options if you don't have them):
 3. [Optional] Specify the preset in `render_all_presets` function to make "all" preset work correctly  
 ![image](https://github.com/user-attachments/assets/1c618a9d-689b-4530-a35f-b9409bbce2b0)  
 
-## To add more supported file formats
+<br>
+</details>
+
+
+
+<details>
+<summary> To add more supported file formats </summary>
+<br>
+
 ![image](https://github.com/user-attachments/assets/a1c44d34-c86a-4afa-9e4e-3f144ca3b60b)  
 ![image](https://github.com/user-attachments/assets/c7bc2f59-3936-445c-af5b-2f1cc2d69304)  
+
+<br>
+</details>
 
 ## Random information
 https://stackoverflow.com/questions/37255690/ffmpeg-format-settings-matrix-bt709  
