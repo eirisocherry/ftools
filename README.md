@@ -8,7 +8,7 @@ https://www.youtube.com/@shy_rikki
 
 | awdaw | wadnaw | wadnaw | wandwa
 | ---   | ---    | ---    | ---
-| 3     | 5      | adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn   | wadn
+| 3     | 5      | adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn   | wadn
 
 ## Installation
 1. Install FFMPEG and add it to the PATH environment variable: https://ffmpeg.org/  
