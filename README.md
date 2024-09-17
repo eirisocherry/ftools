@@ -9,11 +9,13 @@ https://www.youtube.com/@shy_rikki
 
 ## Features
 - Best ffmpeg presets which provide the best quality with precise colors and work super fast in any software (Vegas Pro, After Effects etc)
-- Easy to use: just drag and drop the folders/videos onto the batch and wait till converting is finished
+- Easy to use: just drag and drop the videos/folders onto the `.bat` file and wait till converting is finished
 - Fully customizable
   - Adjustable frame rate (FPS)
   - Changeable resolution
   - Create your own FFmpeg presets (for advanced users only)
+- Extract all audio tracks from a video  
+- Extract 
 
 ## Installation
 1. Install FFMPEG and add it to the PATH environment variable: https://ffmpeg.org/  
