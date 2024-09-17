@@ -5,6 +5,11 @@ This script converts videos into readable format for editing software (after eff
 `shy_rikki` (discord)  
 https://www.youtube.com/@shy_rikki  
 
+
+| awdaw | wadnaw | wadnaw | wandwa
+| ---   | ---    | ---    | ---
+| 3     | 5      | adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn   | wadn
+
 ## Installation
 1. Install FFMPEG and add it to the PATH environment variable: https://ffmpeg.org/  
 2. Install K-Lite Codec Pack (standart): https://codecguide.com/download_kl.htm  
