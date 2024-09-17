@@ -14,7 +14,6 @@ https://www.youtube.com/@shy_rikki
 - - Adjustable frame rate (FPS)
 - - Changeable resolution
 - - Create your own FFmpeg presets (for advanced users only)
-- Best (useful if you want to share your high-fps game clips)
 - 10 bit support (means you can convert raw 10 bits anime clips without losing colors)  
 
 ## Installation
