@@ -6,9 +6,13 @@ This script converts videos into readable format for editing software (after eff
 https://www.youtube.com/@shy_rikki  
 
 
-| awdaw | wadnaw | wadnaw | wandwa
-| ---   | ---    | ---    | ---
-| 3     | 5      | adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn adnawdn   | wadn
+## Features
+- Best ffmpeg presets which provide the best quality and work super fast in any software (Vegas Pro, After Effects etc)
+- Easy to use: just drag and drop the folders/videos onto the batch and wait till converting is finished
+- Fully customizable
+- - Adjustable frame rate (FPS)
+- - Changeable resolution
+- - Create your own FFmpeg presets (for advanced users only)
 
 ## Installation
 1. Install FFMPEG and add it to the PATH environment variable: https://ffmpeg.org/  
@@ -29,6 +33,51 @@ Quicktime codec (.mov): https://support.apple.com/en-us/106375
 ## Bugs
 If this script immediately crashes more likely one of your folders/videos have parentheses `( )` in their name, rename them  
 During converting pay big attention to [Input] and [Output] paths and rename files/folders which are causing errors  
+
+
+
+
+
+## Presets information
+### UTVIDEO (.avi)  
+Requirement: Ut Video Codec (https://www.videohelp.com/software/Ut-Video-Codec-Suite)  
+`utalpha` -> true lossless quality, supports an alpha channel (best choise if you wanna keep the original quality)  
+`uttrue`  -> true lossless quality (best choise if you wanna keep the original quality, especially on depth/normal maps)  
+
+### QUICKTIME (.mov)  
+Requirement: Quicktime Codec (https://support.apple.com/en-us/106375)  
+Issues: 1. prores doesn't support 8k+ resolution (use proresxq instead)  
+2. proresxq doesn't work in vegas 18 and lower.  
+3. Low contrast bug in vegas 18 and lower. You can't fix it.  
+`proresxq` -> supports an alpha channel (best choise for rendering short videos (less than 1 minute) to youtube)  
+`prores`   -> supports an alpha channel (much smaller size compared to utalpha)  
+
+### X264 YUV420 (.mp4)  
+Issues:  
+1. Doesn't work with odd values resolutions (ex: 1920x815 = BAD; 1920x816 = GOOD)  
+2. Low contrast bug in vegas 18 and lower.  
+To fix it adjust project settings (ignore ACES options if you don't have them):  
+'Pixel format: 32-bit (full range)'  
+'Compositing gamma: 2.222'  
+'ACES version: 1.0'  
+'ACES color space: Default'  
+'View transform: Off'.  
+`lossless` -> best choise for rendering long videos (1 minute+) to youtube due to small size  
+`good`     -> best balance  
+`lite`     -> good for sharing, because of super small size  
+
+### ALL  
+`all` -> will render a video in all presets, so you can test which one you like the most  
+
+### What to choose?  
+**Quality (best to worst):** utalpha = uttrue > proresxq > prores > lossless13 > good > lite  
+**Size (lowest to biggest):** lite < good < lossless < prores < uttrue < proresxq < utalpha  
+**Playback speed (fastest to slowest):** uttrue > utalpha > lite > good > lossless > prores > proresxq  
+**Converting time (fastest to slowest):** uttrue < utalpha < lite < prores < proresxq < good < lossless  
+
+
+
+
 
 ## To add an ffmpeg preset
 1. Make a preset 
