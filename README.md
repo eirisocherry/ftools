@@ -35,7 +35,7 @@ Quicktime codec (.mov): https://support.apple.com/en-us/106375
 <br>
 
 1. Edit ftool-converter.bat with a notepad and adjust the settings (preset, fps etc.)  
-2. Make sure videos and folders don't have special symbols such as `& , ; = ^` etc in their names (dashes "-" , underscores "_", english and other languages are safe to use)  
+2. Make sure videos and folders don't have special symbols such as `% ^ = & , ;` etc in their names (dashes "-" , underscores "_", english and other languages are safe to use)  
 3. Drag all the videos and folders with videos you want to convert onto the `ftool-converter.bat`  
 4. Wait till converting is finished  
 5. Enjoy your converted videos  
