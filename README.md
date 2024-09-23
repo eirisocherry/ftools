@@ -38,24 +38,21 @@ Quicktime codec (.mov): https://support.apple.com/en-us/106375
 
 
 ## Guide
-<details>
-<summary> How to add an ffmpeg preset </summary>
-<br>
-
-
 
 <details>
 <summary> >> ftool-converter.bat </summary>
 <br>
 
+### How to add an ffmpeg preset?
 1. Make a new preset  
 ![image](https://github.com/user-attachments/assets/2a82f8a7-5817-478c-8d13-c8a8842d81e1)  
-2. [Optional] Setup more extensions which ffmpeg will try to convert  
-![image](https://github.com/user-attachments/assets/d2e36bc9-2a6e-49fc-9f21-717f1b1fcdc7)  
-3. Adjust echo  
+2. Adjust echo  
 ![image](https://github.com/user-attachments/assets/660246b8-c04e-4b7d-912e-1dae1ac64c64)  
-4. Specify the new preset in `render_all_presets` function to make a preset called "all" work correctly  
+3. Specify the new preset in `render_all_presets` function to make a preset called "all" work correctly  
 ![image](https://github.com/user-attachments/assets/7afdd0d8-e285-4806-977d-14f71684036a)  
+
+[Optional] Setup more video extensions which ffmpeg will try to convert  
+![image](https://github.com/user-attachments/assets/d2e36bc9-2a6e-49fc-9f21-717f1b1fcdc7)  
 
 <br>
 </details>
@@ -65,6 +62,14 @@ Quicktime codec (.mov): https://support.apple.com/en-us/106375
 <summary> >> ftool-merger.bat </summary>
 <br>
 
+1. Make a new preset  
+![image](https://github.com/user-attachments/assets/555da13c-c763-4825-819b-6b04bb4975a0)  
+2. [Optional] Setup more image extensions which ffmpeg will try to merge  
+![image](https://github.com/user-attachments/assets/60689d40-2af2-4b6e-a064-689c8cd4180b)  
+3. Adjust echo  
+![image](https://github.com/user-attachments/assets/b559c942-8dd1-475f-87d5-2f4bb8d5d039)  
+4. Specify the new preset in `render_all_presets` function to make a preset called "all" work correctly  
+![image](https://github.com/user-attachments/assets/21446c0c-86d3-4e11-8cbf-faa3e7ac7074)  
 
 <br>
 </details>
@@ -81,11 +86,6 @@ Quicktime codec (.mov): https://support.apple.com/en-us/106375
 <details>
 <summary> >> ftool-splitter.bat </summary>
 <br>
-
-<br>
-</details>
-
-
 
 <br>
 </details>
