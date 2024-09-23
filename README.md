@@ -37,7 +37,6 @@ Quicktime codec (.mov): https://support.apple.com/en-us/106375
 4. Enjoy your converted videos  
 
 
-
 ## Guide
 <details>
 <summary> How to add an ffmpeg preset </summary>
@@ -46,21 +45,44 @@ Quicktime codec (.mov): https://support.apple.com/en-us/106375
 
 
 <details>
-<summary> ftool-converter.bat </summary>
+<summary> >> ftool-converter.bat </summary>
 <br>
 
 1. Make a new preset  
 ![image](https://github.com/user-attachments/assets/2a82f8a7-5817-478c-8d13-c8a8842d81e1)  
-2. If your preset has a unique extension, add it  
+2. [Optional] Setup more extensions which ffmpeg will try to convert
 ![image](https://github.com/user-attachments/assets/d2e36bc9-2a6e-49fc-9f21-717f1b1fcdc7)  
 3. Adjust echo  
 ![image](https://github.com/user-attachments/assets/6f65ac16-262f-4ad5-ad7a-d3b2476e925b)  
-4. Add more supported extensions if needed  
-![image](https://github.com/user-attachments/assets/8fafc8b7-a5ef-40ce-9d06-849a5583ea8e)  
-5. Adjust echo  
+4. Adjust echo  
 ![image](https://github.com/user-attachments/assets/660246b8-c04e-4b7d-912e-1dae1ac64c64)  
-6. Specify the new preset in `render_all_presets` function to make preset called "all" work correctly  
+5. Specify the new preset in `render_all_presets` function to make preset called "all" work correctly  
 ![image](https://github.com/user-attachments/assets/7afdd0d8-e285-4806-977d-14f71684036a)  
+
+<br>
+</details>
+
+
+<details>
+<summary> >> ftool-merger.bat </summary>
+<br>
+
+
+<br>
+</details>
+
+
+<details>
+<summary> >> ftool-extractor.bat </summary>
+<br>
+
+<br>
+</details>
+
+
+<details>
+<summary> >> ftool-splitter.bat </summary>
+<br>
 
 <br>
 </details>
