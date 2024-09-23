@@ -43,6 +43,12 @@ Quicktime codec (.mov): https://support.apple.com/en-us/106375
 <summary> How to add an ffmpeg preset </summary>
 <br>
 
+
+
+<details>
+<summary> ftool-converter.bat </summary>
+<br>
+
 1. Make a new preset  
 ![image](https://github.com/user-attachments/assets/2a82f8a7-5817-478c-8d13-c8a8842d81e1)  
 2. If your preset has a unique extension, add it  
@@ -55,6 +61,11 @@ Quicktime codec (.mov): https://support.apple.com/en-us/106375
 ![image](https://github.com/user-attachments/assets/660246b8-c04e-4b7d-912e-1dae1ac64c64)  
 6. Specify the new preset in `render_all_presets` function to make preset called "all" work correctly  
 ![image](https://github.com/user-attachments/assets/7afdd0d8-e285-4806-977d-14f71684036a)  
+
+<br>
+</details>
+
+
 
 <br>
 </details>
