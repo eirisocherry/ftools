@@ -3,7 +3,7 @@ Is a collection of ffmpeg batch scripts that allow you to recursively:
 1. Convert videos to optimized formats (ftool-converter.bat)  
 2. Merge image sequences into videos (ftool-merger.bat)  
 3. Extract image sequences and audio tracks from videos (ftool-extractor.bat)  
-4. Split resolution of the videos into peaces (ftool-splitter.bat)  
+4. Split resolution of videos into peaces (ftool-splitter.bat)  
 
 ## Credits
 `shy_rikki` (discord)  
