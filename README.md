@@ -31,12 +31,13 @@ Quicktime codec (.mov): https://support.apple.com/en-us/106375
 
 
 
-## Usage
+## Guide
 
 <details>
-<summary> Usage </summary>
+<summary> ftool-converter.bat </summary>
 <br>
 
+### Usage
 1. Edit ftool-converter.bat with a notepad and adjust the settings (preset, fps etc.)  
 2. Make sure videos and folders don't have special symbols such as `% ^ = & , ;` etc in their names (dashes "-" , underscores "_", english and other languages are safe to use)  
 3. Drag all the videos and folders with videos you want to convert onto the `ftool-converter.bat`  
