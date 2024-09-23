@@ -50,13 +50,11 @@ Quicktime codec (.mov): https://support.apple.com/en-us/106375
 
 1. Make a new preset  
 ![image](https://github.com/user-attachments/assets/2a82f8a7-5817-478c-8d13-c8a8842d81e1)  
-2. [Optional] Setup more extensions which ffmpeg will try to convert
+2. [Optional] Setup more extensions which ffmpeg will try to convert  
 ![image](https://github.com/user-attachments/assets/d2e36bc9-2a6e-49fc-9f21-717f1b1fcdc7)  
 3. Adjust echo  
-![image](https://github.com/user-attachments/assets/6f65ac16-262f-4ad5-ad7a-d3b2476e925b)  
-4. Adjust echo  
 ![image](https://github.com/user-attachments/assets/660246b8-c04e-4b7d-912e-1dae1ac64c64)  
-5. Specify the new preset in `render_all_presets` function to make preset called "all" work correctly  
+4. Specify the new preset in `render_all_presets` function to make a preset called "all" work correctly  
 ![image](https://github.com/user-attachments/assets/7afdd0d8-e285-4806-977d-14f71684036a)  
 
 <br>
