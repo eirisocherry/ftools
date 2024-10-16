@@ -10,7 +10,7 @@ Is a collection of ffmpeg batch scripts that allow you to recursively:
 https://www.youtube.com/@shy_rikki  
 
 ## Advantages
-- FFmpeg presets which provide the best quality with precise colors and work super fast in any software (Vegas Pro, After Effects, Premiere Pro etc)
+- FFmpeg presets which provide the best quality with precise colors and work super fast in any video editing software
 - Easy to use: just drag and drop the videos/folders onto the `.bat` file and wait till converting is finished
 - Fully customizable
   - Adjustable frame rate (FPS)
@@ -23,7 +23,7 @@ https://www.youtube.com/@shy_rikki
 Tutorial: https://www.youtube.com/watch?v=qSlxv68Xpkw  
 2. Install K-Lite Codec Pack (standart): https://codecguide.com/download_kl.htm  
 It's a good video player that can play almost every video/audio without any issues  
-3. Install these codecs to be able to import them into software:  
+3. Install these codecs to be able to import them into video editing software:  
 UtVideo codec (.avi): https://www.videohelp.com/software/Ut-Video-Codec-Suite  
 Quicktime codec (.mov): https://support.apple.com/en-us/106375  
 4. [Optional] Install Notepad++ (handy notepad): https://notepad-plus-plus.org/downloads/  
