@@ -27,7 +27,7 @@ It's a good video player that can play almost every video/audio without any issu
 UtVideo codec (.avi): https://www.videohelp.com/software/Ut-Video-Codec-Suite  
 Quicktime codec (.mov): https://support.apple.com/en-us/106375  
 4. [Optional] Install Notepad++ (handy notepad): https://notepad-plus-plus.org/downloads/  
-5. Install the batch scripts.  
+5. Install the batch scripts: https://github.com/eirisocherry/ftools/releases  
 
 ### Usage
 1. Edit `*.bat` with a notepad and adjust the settings (preset, fps etc.)  
