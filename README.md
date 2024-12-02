@@ -5,9 +5,9 @@ Is a collection of ffmpeg batch scripts that allow you to recursively:
 3. Extract image sequences and audio tracks from videos (ftool-extractor.bat)  
 4. Split resolution of videos into peaces (ftool-splitter.bat)  
 
-## Credits
-`shy_rikki` (discord)  
-https://www.youtube.com/@shy_rikki  
+## Support
+Author: https://www.youtube.com/@shy_rikki  
+My support discord server: https://discord.gg/AAJxThhbBf  
 
 ## Advantages
 - FFmpeg presets which provide the best quality with precise colors and work super fast in any video editing software
