@@ -22,7 +22,7 @@ rem Source: https://github.com/eirisocherry/ftools
 rem -------------------Settings-------------------
 
 rem Choose a preset (scroll down a bit and view presets information)
-set preset=lite10bit
+set preset=uttrue
 
 rem Choose a framerate (recommended fps values: 16/24/25/30/48/50/60/75/120/125/250/500)
 rem 0: don't change
@@ -51,7 +51,7 @@ set preserve_folder_structure=1
 rem Сopy files that are not videos? (applies only when preserve_folder_structure=1)
 rem 0: no
 rem 1: yes
-set copy_files=0
+set copy_files=1
 
 rem Render an audio?
 rem 0: no
